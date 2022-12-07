@@ -13,7 +13,7 @@
 ## Run test inside the docker image
 # avocado run --docker fedora-avocado-custom passtest.py
 #
-FROM debian
+FROM debian:11.5
 MAINTAINER Dmitry Monakhov dmonakhov@openvz.org
 # Install and clean in one step to decrease image size
 
